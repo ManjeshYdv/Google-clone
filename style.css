@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+}
+
+body{
+    background: #393939;
+}
+
+.nav-icon{
+    display: flex;
+    color: white;
+    background: #393939;
+    height: 80px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-item p{
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 15px;  
+    font-size: 1.5rem;
+}
+.google-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: none;
+    margin-top: 140px;
+
+}
+.logo{
+    color: white;
+    font-size: 8rem;
+    font-family: Arial;
+    font-weight:400;
+    
+}
+
+.main-part{
+    display: flex;
+    justify-content: center;
+    margin-top: -90px;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 70px;
+    border-radius: 25px;
+    width: 40%;
+    align-items: center;
+    margin-top: 7.90rem;
+}
+.search{
+    width: 40px;
+    height: 60px;
+}
+
+.search-icon{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.search-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: none;
+    
+    font-size: 1.03rem;
+}
+.search-mic{
+    display: flex;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.search-scanner{
+    display: flex;
+    margin-right: 1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.app-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    background-color:#393939;
+    margin-top: 25px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.app-container{
+    position: relative;
+    height: 100px;
+    width: 90px;
+    margin-top: none;
+    margin: 5px;
+    background-color: #393939;
+    padding: 0px 18px ;
+}
+
+
+.app-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 1rem;
+    padding: 4px 8px 18px  8px;
+}
+
+.app-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    color: white;
+}
+
+.foot-section{
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.app-container:hover{
+    background-color: rgb(92, 89, 89);
+    border-radius: 4px;
+}
